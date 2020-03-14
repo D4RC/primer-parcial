@@ -2,3 +2,140 @@
     padding: 0;
     margin: 0;
 }
+
+body {
+    background-color: rgb(248, 248, 248);
+    font-family: poppins;
+    padding: 3rem;
+    font-size: 3rem;
+}
+
+section {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    font-size: .7em;
+}
+
+.deposit {
+    margin: 1em 0em 1em 0;
+    height: 4.5em;
+}
+
+.deposit h6 {
+    color: gray;
+    font-weight: 200
+}
+
+.deposit span {
+    margin-left: 1.5em;
+}
+
+#amount {
+    border-radius: .5em;
+    box-shadow: none;
+    border: 1px solid rgba(128, 128, 128, 0.555);
+    font-size: 1.5em;
+    font-weight: 700;
+    height: 60%;
+    padding-left: .5em;
+    width: 65%;
+    margin-top: .2em;
+    letter-spacing: .1em;
+}
+
+#currency {
+    border:none;
+    font-size: 1em;
+    height: 60%;
+}
+
+.deposit {
+    background-color: white;
+    border-radius: .3em;
+    padding: 1em;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.options a {
+    font-size: 0.6em;
+    margin: 1em 0 1em 0;
+    color: gray;
+}
+
+#current {
+    color: black;
+    font-weight: 700;
+}
+
+.calendar ul {
+    display: flex;
+    justify-content:space-between;
+    list-style-type: none;
+}
+
+.calendar li {
+    padding: 1em;
+    background-color: white;
+    border-radius: .3em;
+    width: 1em;
+    flex-grow: 0;
+    text-align: center;
+}
+
+#selected {
+    color: white;
+    background-color: red;
+}
+
+.rates {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rates div {
+    height: 9.5em;
+    padding: 1em;
+    border-radius: .3em;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 6.5em;
+}
+
+.rates h6 {
+    font-size: .5em;
+    margin-bottom: 2em;
+}
+
+#nominal {
+    background-color: red;
+    color: white;
+    align-self: flex-end;
+}
+
+button {
+    background-color: red;
+    border: none;
+    color:white;
+    width: 100%;
+    font-size: 1em;
+    padding: 1em;
+    border-radius: .4em;
+    margin-top: 1em;
+    font-weight: 700;
+}
+
+.shadow {
+    box-shadow: 10px 10px 28px -18px rgba(189, 189, 189, 0.75);
+}

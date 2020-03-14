@@ -1,9 +1,57 @@
 <!DOCTYPE html>
 <html>
     <head>
-       
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700,900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/8a8dca9f6b.js" crossorigin="anonymous"></script>
     </head>
     <body>
+
+        <header>
+            <h3></h3>
+            <h4>Deposits</h4>
+            <i class="fas fa-times"></i>
+        </header>
+
+        <section class="deposit shadow">
+            <h6>Deposit amount</h6>
+            <input id="amount" value="20,000">
+            <span>
+            $ <i class="fas fa-chevron-down"></i>
+           </span>
+        </section>
+
+        <section class="calendar">
+            <div class="options">
+                <a id="current">AT THE TIME</a>
+                <a>MONTH</a>
+            </div>
+            <ul>
+                <li>3</li>
+                <li>6</li>
+                <li id="selected">12</li>
+                <li>18</li>
+                <li>24</li>
+            </ul>
+        </section>
+
+        <h6>INTEREST PAYMENTS</h6>
+        <section class="rates">
+            <div id="nominal">
+                <img src="coin.PNG" width="100">
+                <h3>15.50%</h3>
+                <h6>At the end</h6>
+            </div>
+            <div class="shadow">
+                <img>
+                <h3>14.50 %</h3>
+                <h6>Monthly</h6>
+            </div>
+        </section>
+
+        <button type="submit">
+            Calculate
+        </button>
 
     </body>
 </html>
